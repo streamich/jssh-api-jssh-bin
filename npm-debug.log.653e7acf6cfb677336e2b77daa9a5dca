@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   '/code/jssh-api-jssh@0.0.11' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /usr/local/lib/package.json
+6 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+7 silly cache add args [ '/code/jssh-api-jssh@0.0.11', null ]
+8 verbose cache add spec /code/jssh-api-jssh@0.0.11
+9 silly cache add parsed spec { raw: '/code/jssh-api-jssh@0.0.11',
+9 silly cache add   scope: null,
+9 silly cache add   name: null,
+9 silly cache add   rawSpec: '/code/jssh-api-jssh@0.0.11',
+9 silly cache add   spec: '/code/jssh-api-jssh@0.0.11',
+9 silly cache add   type: 'local' }
+10 error addLocal Could not install /code/jssh-api-jssh@0.0.11
+11 verbose stack Error: ENOENT, open '/code/jssh-api-jssh@0.0.11'
+11 verbose stack     at Error (native)
+12 verbose cwd /code/jssh-api-jssh-bin
+13 error Linux 3.13.0-45-generic
+14 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "/code/jssh-api-jssh@0.0.11"
+15 error node v0.12.4
+16 error npm  v2.10.1
+17 error path /code/jssh-api-jssh@0.0.11
+18 error code ENOENT
+19 error errno -2
+20 error enoent ENOENT, open '/code/jssh-api-jssh@0.0.11'
+20 error enoent This is most likely not a problem with npm itself
+20 error enoent and is related to npm not being able to find a file.
+21 verbose exit [ -2, true ]
